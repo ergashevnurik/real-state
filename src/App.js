@@ -6,6 +6,7 @@ import React, {useState} from 'react'
 import DropDown from "./components/DropDown";
 import InfoSection from "./components/InfoSection";
 import { InfoData } from "./data/InfoData";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <DropDown isOpen={isOpen} toggle={toggle} />
       <Hero slides={SliderData} />
       <InfoSection {...InfoData} />
+      <Footer />
     </>
   );
 }
