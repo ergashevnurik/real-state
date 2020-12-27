@@ -7,17 +7,10 @@ export const FooterSection = styled.section `
 `
 
 export const FooterContainer = styled.div `
-    width: 80%;
     margin: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-
-    @media screen and (max-screen: 768px) {
-        width: 100%;
-    }
-
 `
 
 export const FooterRow = styled.div `
