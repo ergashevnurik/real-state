@@ -21,6 +21,7 @@ export const Container  = styled.div `
 export const ColumnLeft = styled.div `
     width: calc(100% / 2);
     padding: 20px;
+    order: ${({reverse}) => (reverse ? '2' : '1')};
 
     h1 {
         font-size: clamp(2rem, 5vw, 4rem);
@@ -42,8 +43,10 @@ export const ColumnLeft = styled.div `
 
 export const ColumnRight = styled.div `
     width: calc(100% / 2);
+    order: ${({reverse}) => (reverse ? '1' : '2')};
 
     @media screen and (max-width: 700px) {
+        order: ${({reverse}) => (reverse ? '2' : '1')};
         width: 100%;
     }
 

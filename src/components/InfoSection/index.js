@@ -6,13 +6,13 @@ const InfoSection = ({heading, paragraph, paragraphTwo, image, reverse, bottomLa
     return (
         <Section>
             <Container>
-                <ColumnLeft>
+                <ColumnLeft  reverse={reverse}>
                     <h1>{heading}</h1>
                         <p>{paragraph}</p>
                             <p>{paragraphTwo}</p>
                             <Button to="/home" primary="true" >{bottomLabel}</Button>
                 </ColumnLeft>
-                <ColumnRight reverse={reverse}>
+                <ColumnRight  reverse={reverse}>
                     <img src={image} alt="home" />
                 </ColumnRight>
             </Container>

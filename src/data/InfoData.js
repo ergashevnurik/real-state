@@ -1,4 +1,5 @@
 import ImageOne from '../images/2.jpg'
+import ImageTwo from '../images/1.jpg'
 
 export const InfoData = {
         heading: 'Beautiful Homes really cool',
@@ -6,7 +7,7 @@ export const InfoData = {
         paragraphTwo: 'My name is Nurmukhammad and I am a developer of the web sites and application',
         bottomLabel: 'View Home',
         image: ImageOne,
-        reverse: false,
+        reverse: true,
         delay: 100
 }
 export const InfoDataTwo = {
@@ -14,7 +15,7 @@ export const InfoDataTwo = {
         paragraph: 'My name is Nurmukhammad and I am a developer of the web sites and application',
         paragraphTwo: 'My name is Nurmukhammad and I am a developer of the web sites and application',
         bottomLabel: 'View Home',
-        image: ImageOne,
+        image: ImageTwo,
         reverse: false,
         delay: 100
 }
