@@ -1,5 +1,7 @@
 import ImageOne from '../images/download.jpg'
 import ImageTwo from '../images/2.jpg';
+import ImageThree from '../images/1.jpg';
+import ImageFour from '../images/3.jpg';
 export const SliderData = [
     {
         title: 'Luxury Ville in San Andreas',
@@ -22,7 +24,7 @@ export const SliderData = [
         price: '$4000.00',
         path: '/home',
         labels: 'View Home',
-        image: ImageOne,
+        image: ImageThree,
         alt: 'House'
     },
     {
@@ -30,7 +32,7 @@ export const SliderData = [
         price: '$4000.00',
         path: '/home',
         labels: 'View Home',
-        image: ImageTwo,
+        image: ImageFour,
         alt: 'House'
     },
 ];

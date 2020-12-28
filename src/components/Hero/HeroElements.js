@@ -21,7 +21,7 @@ export const HeroWrapper = styled.div `
 export const HeroSlide = styled.div `
     z-index: 1;
     height: 100%;
-    widht: 100%;
+    width: 100%;
 `
 
 export const HeroSlider = styled.div `
@@ -40,7 +40,7 @@ export const HeroSlider = styled.div `
         z-index: 2;
         width: 100%;
         height: 100vh;
-        bottom: 0vh;
+        bottom: 0;
         left: 0;
         overflow: hidden;
         opacity: 0.4;
